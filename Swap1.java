@@ -6,9 +6,9 @@ class Swap{
 		int a=sc.nextInt();
 		System.out.print("Enter a 2nd number");
 		int b=sc.nextInt();
-		a=a+b;
-		b=a-b;
-		a=a-b;
+		int temp=a;
+		b=a;
+		a=temp;
 		System.out.println("a :"  + a);
 				System.out.println("b :"  + b);
 		}
